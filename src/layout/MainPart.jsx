@@ -29,11 +29,11 @@ const Main = () => {
             <input type="checkbox" id="azikoInput" />
           </div>
         </form>
-        <NavLink to='/NextPage'>
-          <button className="bg-[#218721] text-white pl-7 pr-7 pt-3 pb-3 rounded-[5px]">
-            Dalee
-          </button>
-        </NavLink>
+        {/* <NavLink to='/NextPage'> */}
+          {/* <button className="bg-[#218721] text-white pl-7 pr-7 pt-3 pb-3 rounded-[5px]"> */}
+            {/* Dalee */}
+          {/* </button> */}
+        {/* </NavLink> */}
       </div>
     </>
   );
