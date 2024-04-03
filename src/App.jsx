@@ -1,12 +1,10 @@
-import {useKindeAuth} from "@kinde-oss/kinde-auth-react";
 import Navbar from "./layout/Navbar";
+import Main from "./layout/MainPart"
 function App() {
-  const { login, register } = useKindeAuth();
   return (
     <>
       <Navbar/>
-      {/* <button onClick={register} type="button">Register</button> */}
-      {/* <button onClick={login} type="button">Log In</button> */}
+      <Main/>
     </>
   )
 }

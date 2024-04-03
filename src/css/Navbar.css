@@ -1,0 +1,22 @@
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important; 
+  /* gap: 700px; */
+}
+.nav-links-1 {
+    display: flex;
+    gap: 15px;  
+    align-items: center;
+    justify-content: center;
+}
+.nav-links-2 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+}
