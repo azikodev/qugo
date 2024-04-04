@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Main = () => {
   return (
     <>
-      <div className="container max-w-[1280px] m-auto">
+      <div className="container max-w-[1280px] m-auto mb-[80px]">
         <h1 className="text-green-700 text-[25px] font-[700] mb-[16px]">
           Начало регистрации
         </h1>
@@ -25,15 +25,17 @@ const Main = () => {
             <input type="radio" id="customerInput" name="profileType" />
           </div>
           <div className="flex gap-2 items-center ">
-            <label htmlFor="azikoInput">aziko</label>
+            <label htmlFor="azikoInput ">
+            Я прочитал и принимаю условия <a href="#" className="text-[#249D55] font-[600] underline">Соглашения Qugo с Заказчиком</a>
+            </label>
             <input type="checkbox" id="azikoInput" />
           </div>
         </form>
-        {/* <NavLink to='/NextPage'> */}
-          {/* <button className="bg-[#218721] text-white pl-7 pr-7 pt-3 pb-3 rounded-[5px]"> */}
-            {/* Dalee */}
-          {/* </button> */}
-        {/* </NavLink> */}
+        <NavLink to='/NextPage'>
+          <button className="bg-[#218721] mt-6 text-white pl-7 pr-7 pt-3 pb-3 rounded-[5px]">
+            Dalee
+          </button>
+        </NavLink>
       </div>
     </>
   );
